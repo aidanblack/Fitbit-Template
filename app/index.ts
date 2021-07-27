@@ -15,7 +15,7 @@ import Goals from "./goals";
 // ***** Settings *****
 console.log("set up settings");
 
-const settings;
+var settings;
 
 function settingsCallback(data) {
   settings = data;
@@ -53,8 +53,8 @@ var clockController = new Clock(
 console.log("initialize body and heart rate");
 
 const heartRate = document.getElementById("heartRate");
-const body = null;
-const hrm;
+var body = null;
+var hrm = null;
 
 function processHeartRate() {
   if (!settings.hideHeartRate && display.on) {

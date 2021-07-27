@@ -1,7 +1,8 @@
 {
   "devDependencies": {
     "@fitbit/sdk": "~5.0.0",
-    "@fitbit/sdk-cli": "^1.7.3"
+    "@fitbit/sdk-cli": "^1.7.3",
+    "fitbit-sdk-types": "^7.0.0"
   },
   "fitbit": {
     "appType": "clockface",
@@ -25,12 +26,13 @@
         "name": "template"
       }
     },
-    "defaultLanguage": "en-US"
+    "defaultLanguage": "en-US",
+    "appUUID": "c977df43-d611-42d0-b1d3-2516a943c472"
   },
   "dependencies": {
     "fitbit": "0.0.7",
     "fitbit-weather": "^0.2.3",
-    "fp-ts": "^2.10.5",
+    "fp-ts": "^2.11.0",
     "io-ts": "^2.2.16"
   },
   "scripts": {

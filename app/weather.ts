@@ -1,6 +1,8 @@
 import * as weather from 'fitbit-weather/app';
 
 class Weather {
+    temp;
+    icon;
     tempUnit = "0";
     timestamp = 0;
 

@@ -1,6 +1,11 @@
 import clock from "clock";
 
 class Clock {
+    dateBox;
+    hourHand;
+    minuteHand;
+    secondsHand;
+
     updateDisplay = function() {};
     updateBattery = function() {};
     updateGoals = function() {};
